@@ -1,4 +1,5 @@
 # jQuery UI built with webpack demo
+fork of https://github.com/jzaefferer/webpack-jquery-ui
 
 This repository provides a sample setup to use jQuery UI widgets, built
 with webpack.
