@@ -14,10 +14,10 @@
     "jquery-ui": "1.12.x"
   },
   "devDependencies": {
-    "css-loader": "^0.28.7",
-    "file-loader": "^1.1.5",
-    "style-loader": "^0.19.0",
-    "webpack": "^3.8.1",
-    "webpack-dev-server": "^3.0.0"
+    "css-loader": "0.28.7",
+    "file-loader": "1.1.5",
+    "style-loader": "0.19.0",
+    "webpack": "3.8.1",
+    "webpack-dev-server": "3.3.1"
   }
 }
