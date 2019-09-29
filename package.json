@@ -1,11 +1,11 @@
 {
   "name": "webpack-jquery-ui",
   "version": "1.0.0",
-  "description": "Demo how to use jQuery UI and webpack 3",
+  "description": "Demo how to use jQuery UI and webpack 5",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server  --config webpack-config.js --inline --hot --content-base ./dist",
-    "build": "webpack --config webpack-config.js"
+    "start": "webpack-cli serve --mode=development --config webpack-config.js --inline --hot --content-base ./dist",
+    "build": "webpack --mode=production --config webpack-config.js"
   },
   "author": "Yoan Marchal",
   "license": "MIT",
@@ -14,10 +14,13 @@
     "jquery-ui": "1.12.x"
   },
   "devDependencies": {
+    "@webpack-cli/serve": "^0.1.8",
     "css-loader": "3.2.0",
+    "eslint": "^6.5.0",
     "file-loader": "4.2.0",
     "style-loader": "1.0.0",
-    "webpack": "4.41.0",
-    "webpack-dev-server": "3.8.1"
+    "webpack": "5.0.0-alpha.26",
+    "webpack-cli": "^3.3.9",
+    "webpack-dev-server": "^3.8.1"
   }
 }
