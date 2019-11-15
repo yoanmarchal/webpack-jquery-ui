@@ -14,7 +14,7 @@
     "jquery-ui": "1.12.x"
   },
   "devDependencies": {
-    "@webpack-cli/serve": "0.1.8",
+    "@webpack-cli/serve": "0.2.0",
     "css-loader": "3.2.0",
     "eslint": "6.6.0",
     "file-loader": "4.2.0",
